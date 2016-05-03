@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+/* Variaveis */
+
+$cor-preto: #111;
+$cor-amarelo: #F6CA3D;
+$cor-branco: #FFF;
+$cor-cinza: #878787;
+$cor-cinza-b: #4D4E4F;
+$cor-cinza-c: #323334;
+$cor-vermelho: #D80000;
+$cor-input: #626262;
+$cor-laranja: #FF913D;
+$cor-transparent: transparent;
+$cor-facebook: #5475B8;
+$cor-verde: #8CC541;
+$cor-verde-escuro: #80B537;
+
+/* fontes */
+
+$font-open-sans: 'Open Sans', sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
+$font-arial: 'Arial';
+$font-eras: 'eras_demi_itcregular';
+$font-arvo: 'Arvo';
+
+
+/* geral */
+$border-no: 0;
+$none: none;
+$block: block;
+$esquerda: left;
+$direita: right;
+$centro: center;
+$bold: 100;
+$extra-bold: 900;
+$align-center: center;
+$align-left: left;
+$align-right: right;
+$cem-por-cento: 100%;
+$oculta: hidden;
+$relativo: relative;
+$absoluto: absolute;
+$line-h:32px;
+
+
+$size-h2: 20px;
+$size-geral:16px;
+$font-size-small:12px;
+$font-size-menor:11px;
+$titulos: 32px;
+$paragrafo: 13px;
+$pp-padrao: 16px;
+$txt-padrao: 13px;
+
+$font-11: 11px;
+$font-12: 12px;
+$font-13: 13px;
+$font-14: 14px;
+$font-15: 15px;
+$font-16: 16px;
+$font-17: 17px;
+$font-18: 18px;
+$font-19: 19px;
+$font-20: 20px;
+$font-22: 22px;
+$font-23: 23px;
+$font-25: 25px;
+$font-28: 28px;
+$font-30: 30px;
+$font-32: 32px;
+$font-35: 35px;
+$font-36: 36px;
+$font-40: 40px;
+$font-43: 43px;
+$font-50: 50px;
+$font-100: 100px;
+
+/* paddings */
+$padding-no: 0;
+$padding-5: 5px;
+$padding-6: 6px;
+$padding-7: 7px;
+$padding-8: 8px;
+$padding-9: 9px;
+$padding-10: 10px;
+$padding-11: 11px;
+$padding-12: 12px;
+$padding-13: 13px;
+$padding-14: 14px;
+$padding-15: 15px;
+$padding-16: 16px;
+$padding-20: 20px;
+$padding-25: 25px;
+$padding-30: 30px;
+$padding-40: 40px;
+$padding-50: 50px;
+$padding-60: 60px;
+$padding-70: 70px;
+$padding-85: 85px;
+
+/* margens */
+$margin-no:0;
+$margin-2:2px;
+$margin-5:5px;
+$margin-10:10px;
+$margin-15:15px;
+$margin-20:20px;
+$margin-25:25px;
+$margin-30:30px;
+$margin-35:35px;
+$margin-40:40px;
+$margin-50:50px;
+$margin-60:60px;
+$margin-70:70px;
+$margin-80:80px;
+$margin-100:100px;
+
+$tamanho-50:50px;

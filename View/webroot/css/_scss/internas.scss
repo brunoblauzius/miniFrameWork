@@ -1,0 +1,924 @@
+/* Internas */
+
+.tt-internas {
+  color: $cor-amarelo;
+  margin-top: $margin-15;
+  font-family: $font-montserrat;
+  font-size: $font-25;
+}
+
+.meio-internas {
+  background:$cor-branco;
+  font-family: $font-montserrat;
+
+  h1 {
+    color: $cor-laranja;
+    font-size: $font-35;
+    margin: $margin-40 $margin-no;
+  }
+
+  .txt-span {
+    color: rgba( $cor-cinza, .7 );
+    font-size: 28px;
+    margin-left: 15px;
+    position:$relativo;
+    top: -2px;
+  }
+
+  span {
+    color: rgba( $cor-cinza, .7 );
+    font-size: 28px;
+    font-size: 28px;
+    margin-left: 15px;
+    position:$relativo;
+    top: -2px;
+  }
+}
+
+.box-como {
+  background: rgba( $cor-cinza-b, .1 );
+  color: $cor-cinza;
+  padding:$padding-15 40px;
+  font-size: $size-h2;
+  margin-top: $margin-30;
+  border-left: solid 7px $cor-laranja;
+}
+
+.box-white {
+  background:$cor-branco;
+  padding:$padding-15 $padding-50;
+  font-size: $pp-padrao;
+  border: solid 1px rgba($cor-cinza, .4);
+
+  h2 {
+    color: $cor-cinza;
+    font-size:$size-h2;
+    line-height: 25px;
+  }
+  
+   li {
+    font-family: $font-open-sans;
+    color: $cor-cinza;
+    font-size: $font-16;
+    line-height: $line-h;
+    
+
+    &::before {
+      content:"|";
+      position:$relativo;
+      left: -10px;
+      color: rgba($cor-cinza, .4);
+    }
+  }
+
+  i {
+    font-size: 46px;
+    color: rgba( $cor-cinza, .4 );
+    margin-right: $margin-30;
+
+    position:$relativo;
+    top: 4px;
+  }
+}
+
+
+.box-all {
+  background:$cor-branco;
+  padding:$padding-30 $padding-20;
+  border: solid 1px rgba($cor-cinza, .4);
+  min-height: 204px;
+  color: $cor-cinza;
+  font-size: $font-16;
+  font-family: $font-open-sans;
+
+  p {
+    margin: $margin-no;
+  }
+
+  h3 {
+    color: $cor-laranja;
+    margin: $margin-no;
+    font-size: $font-16;
+    font-family: $font-montserrat;
+  }
+
+   h4 {
+    color: $cor-cinza-b;
+    margin:$margin-40 $margin-no $margin-10 $margin-no;
+    font-size: $font-16;
+    font-family: $font-montserrat;
+  }
+
+  input {
+    width: 64px;
+    height: 64px;
+    text-align: $align-center;
+    margin-top: $margin-30;
+    font-size: $font-32;
+    font-family: $font-montserrat;
+  }
+
+  .img-compras-v2 {
+      margin: $margin-50 $margin-10 $margin-5 $margin-10;
+  }
+}
+
+.box-compras-v2 {
+  background:$cor-branco;
+  padding:$padding-15 $padding-50;
+  border: solid 1px rgba($cor-cinza, .4);
+  min-height: 204px;
+
+  h1 {
+    color: $cor-laranja;
+    font-size: $font-43;
+    margin: $margin-10 $margin-no;
+  }
+
+  h2 {
+    color: $cor-cinza-b;
+    font-size: $font-28;
+  }
+
+  h3 {
+    text-align: $align-center;
+    color: rgba($cor-cinza, .8);
+    font-size: $font-22;
+  }
+
+  .img-compras-v2 {
+      margin: $margin-50 $margin-10 $margin-5 $margin-10;
+  }
+}
+
+.box-contato-all {
+  background:$cor-branco;
+  padding:$padding-15 $padding-30;
+  font-size: $pp-padrao;
+  color: $cor-cinza;
+  margin-bottom: $margin-20;
+  border: solid 1px rgba($cor-cinza, .2);
+
+    h2 {
+      color: $cor-laranja;
+    }
+
+    h3 {
+      font-size: $font-16;
+      margin: $margin-20 $margin-no $margin-10 $margin-no;
+    }
+
+    p {
+      font-size: $font-14;
+      font-family: $font-open-sans;
+    }
+
+    i {
+      margin-right: 6px;
+    }
+
+    input {
+      width: $cem-por-cento;
+      background:rgba($cor-cinza, .2);
+      border: $border-no;
+      border-left: solid 4px rgba($cor-cinza, .4);
+      padding: 7px $padding-20;
+    }
+
+    select {
+      width: $cem-por-cento;
+      background:rgba($cor-cinza, .2);
+      border: $border-no;
+      font-family: $font-open-sans;
+      padding: 7px;
+      font-size: $font-13;
+    }
+
+    textarea {
+      width: $cem-por-cento;
+      background:rgba($cor-cinza, .2);
+      border: $border-no;
+      padding: 7px $padding-20;
+      min-height: 85px;
+    }
+
+  }
+
+  .txt-form {
+    font-size: $font-13;
+    font-family: $font-open-sans;
+    margin:6px 0px;
+  }
+
+  #bt-enviar-contato {
+    width: 100px;
+    background: $cor-laranja;
+    color: $cor-branco;
+    border: solid $border-no;
+    text-align: center;
+    padding: $padding-5 $padding-10;
+    cursor: pointer;
+    margin-top: $margin-10;
+    @include transicao();
+
+    &:hover {
+      background:rgba($cor-cinza, .9)
+    }
+  }
+
+.line-box {  
+    border-bottom: solid 1px rgba($cor-cinza, .2);
+    margin: $margin-30 $margin-no;
+}
+
+.box-white-sobre {
+  background:$cor-branco;
+  padding:$padding-50 $padding-30;
+  font-size: $pp-padrao;
+  border: solid 1px rgba($cor-cinza, .2);
+  margin-bottom:70px;
+
+  p {
+    font-size: $txt-padrao;
+    color: $cor-cinza;
+    font-family: $font-open-sans;
+    margin: $margin-10 $margin-no $margin-20 $margin-no;
+  }
+
+  ul {    
+    padding-left: $padding-30;
+  }
+
+   li {
+    font-family: $font-open-sans;
+    color: $cor-cinza;
+    font-size: $txt-padrao;
+    line-height: $line-h;
+    list-style-type: square;
+  }
+}
+
+.rodape-internas {  
+  
+  background: rgba( $cor-preto, .7 );
+  margin-top: -55px;
+}
+
+.tt-menu-internas {
+  font-family: $font-montserrat;
+  font-size: $font-22;
+  color: $cor-amarelo;
+  margin-top:$margin-15;
+}
+
+/* box direita internas */
+
+.internas-dir-topo {
+  
+  .bloco-topo {
+    background: rgba( $cor-branco, .8 );
+
+    .tt-teste {
+      font-size: 23.5px;
+      margin-bottom: $margin-10;
+      font-family: $font-montserrat;
+    }
+
+    i {
+      margin-right: 7px;
+      font-size: 31px;
+      color: $cor-laranja;     
+    }
+
+    p {
+      color: $cor-cinza;
+      font-family: $font-open-sans;
+      font-size: $font-15;
+    }
+
+    .tt-teste {
+      color: $cor-laranja;
+    }
+
+    ul {
+      margin: $margin-20 $margin-no $margin-20 $margin-10;
+    }
+
+    li {
+      color: $cor-cinza;
+      font-family: $font-open-sans;
+      font-size: $font-15;
+    }
+
+    input {
+      font-family: $font-open-sans;
+      padding:$padding-no;
+    }
+
+    h3 {
+       color: $cor-cinza;
+    }
+  } 
+
+  .bloco-placa-a input {
+      background: rgba( $cor-cinza, .3 );
+      font-size: $font-36;
+  }  
+}
+
+.sg-box-comprar .col-md-4 {
+  padding: $padding-20 /5;
+  margin-bottom: $margin-30;
+}
+
+.box-comprar-ativo {
+  background: $cor-amarelo;
+  margin-top: $margin-40;
+  padding:$padding-20 $padding-no $padding-15 $padding-85;
+  color: $cor-branco;
+  position:$relativo;
+  overflow: $oculta;
+
+  h3 {
+    font-size: $font-22;
+  }
+
+  span {
+    
+   font: {
+      family: $font-arial;
+      weight: $extra-bold;
+      size: $font-100;
+    }
+
+    position: $absoluto;
+    left: -10px;
+    top: -30px;
+    color: rgba( $cor-branco, .3 );  
+  }
+}
+
+.box-comprar {
+  background: rgba( $cor-cinza, .6 );
+  margin-top: $margin-40;
+  padding:$padding-20 $padding-no $padding-15 $padding-85;
+  color: $cor-branco;
+  position:$relativo;
+  overflow: $oculta;
+
+  h3 {
+    font-size: $font-22;
+  }
+
+  span {
+    
+   font: {
+      family: $font-arial;
+      weight: $extra-bold;
+      size: $font-100;
+    }
+
+    position: $absoluto;
+    left: -10px;
+    top: -30px;
+    color: rgba( $cor-branco, .2 );  
+  }
+
+}
+
+.form-cadastro {
+
+    color: $cor-cinza;
+    font-family: $font-open-sans; 
+    margin-bottom: $margin-30; 
+
+    input, select {
+      @include inputs();
+    }
+
+    .ipt-check {
+      min-height: 13px;
+      outline: none !important;
+    }
+
+    .btn-cep {
+      margin-top: 29px;
+      background: #EBEBEB;
+      width: $cem-por-cento;
+      border: solid $border-no;
+      padding: $padding-7 $padding-10;
+      @include transicao;
+      text-align: $align-center;
+
+      &:hover {
+        background: rgba( $cor-cinza, .4 ); 
+      }
+
+      a {
+        color: $cor-cinza;
+        font-family: $font-montserrat;
+        display: block;
+        cursor: pointer;
+      }
+    }
+
+    a {
+      color: $cor-laranja;
+
+        &:focus {
+        color: $cor-laranja;
+       }
+    }
+
+    .sg-check {      
+      float: left;
+      width:34px;
+      font-size: $font-12;
+    }
+
+    .txt-termos {
+      font-size: $font-13;
+      padding: $padding-no;
+      float: left;
+    }
+
+    h2 {
+      color: $cor-laranja;
+      margin: $margin-30 $margin-no $margin-10 $margin-no;
+      font: {
+        family: $font-montserrat;
+        size: $font-22;
+      }
+    }
+
+    i {
+      color: rgba($cor-cinza, .4);
+      font-size: $font-28;
+      margin-right: $margin-10;
+    }
+}
+
+.sg-box-cad {
+  margin-top: $margin-30;
+
+  h2 {
+    color: $cor-laranja;    
+    font-size: $font-25;
+    margin-top: -2px;
+  }
+
+  i {
+    margin:$margin-5 $margin-10;
+    font-size: $font-32;
+    color: $cor-laranja; 
+  }
+
+  .btn-gratis {
+    width: $tamanho-50;
+  }
+}
+
+.sg-possui-conta {
+  padding: $padding-20;
+  color: $cor-cinza;
+  border: solid 1px rgba( $cor-cinza, .3 );
+
+  input {
+    @include inputs();
+    font-family: $font-open-sans; 
+    font-size: $font-13;
+  }
+}
+
+.interna-comprar-dir {
+  font-family: $font-open-sans;
+
+  p {
+    font-size: $font-13;
+    padding-top: $padding-10;
+  } 
+
+  i {
+    font-size: $font-13;
+    color: $cor-cinza;
+    margin-right: $margin-no;
+  }
+
+}
+
+.bt-face-all {
+  font-size: $font-12;
+    text-align: $align-right;
+    margin-top: $margin-5;
+  a {
+    color: $cor-cinza;
+    font-family: $font-open-sans;
+    
+  }
+
+  i {
+    background: $cor-facebook;
+    color: $cor-branco;
+    font-size: $font-13;
+    padding: $padding-5 $padding-7;
+  }
+
+}
+
+.sg-bt-cadastrar {
+  margin-bottom: $margin-50;
+}
+
+.txt-link-padrao {
+  margin-top: $margin-10;
+}
+
+.box-atencao {
+    background:$cor-branco;
+    padding:$padding-15 $padding-50;
+    font-size: $pp-padrao;
+    border: solid 1px rgba($cor-cinza, .4);
+    color: $cor-laranja;
+
+    span {
+       font-family: $font-open-sans;
+       position:$relativo;
+       top: 1px;
+         font: {
+            size: $font-15;
+         }
+    }
+
+    i {
+      color: rgba($cor-cinza, .6);
+      font-size: $font-22;
+      margin-right: $margin-10;
+      position:$relativo;
+      top: 2px;
+    }
+
+    a {
+      color: $cor-laranja;
+    }
+}
+
+.titulo-teste-gratis {
+
+    margin-bottom: $margin-10;    
+
+    h1 {
+
+      color: $cor-cinza;
+      margin-top: $margin-50;
+      padding: $padding-10;
+
+      font: {
+        size: $font-30;
+        family: $font-montserrat;
+      }
+    }
+}
+
+.logo-carros {
+      
+  img {
+       border: solid 1px rgba($cor-cinza, .6);
+        margin-right: $margin-20;
+        margin-top: $margin-50;
+  }
+     
+}
+
+.pague-seguro-internas {
+  text-align: $align-right;
+  padding: $padding-60 $padding-40 $padding-no $padding-no;
+}
+
+.box-teste-gratis {
+   @include add-borda;
+   color: $cor-cinza;
+   position: $relativo;
+
+   ul {
+    margin-top: $margin-30;
+   }
+
+   li {
+      border-bottom: solid 1px rgba($cor-cinza, .3);
+      width: 42%;
+      float: $esquerda;
+      padding: $padding-10 $padding-no;
+      margin:$margin-no $margin-30;
+   }
+
+   p {
+    font-size: $font-12;
+    padding: $padding-no $padding-30;
+    margin: $margin-20 $margin-no $margin-5 $margin-no;
+   }
+
+   small {    
+     font-size: $font-11;
+     padding: $padding-30;
+   }
+}
+
+.txt-versao {
+  background: #E1E1E1;
+  color: rgba($cor-preto, .8);
+  padding: $padding-7 $padding-20;
+  position: $absoluto;
+  font-family: $font-montserrat;
+  top: -25px;
+  left: 27px;
+  z-index: 10;
+  font-size: $font-18;
+}
+
+.box-pague-seguro {
+  background:$cor-branco;
+  padding:$padding-15 $padding-50;
+  border: solid 1px rgba($cor-cinza, .4);
+
+  h1 {
+    color: $cor-laranja;
+    font-size: $font-43;
+    margin: $margin-10 $margin-no;
+  }
+
+  h2 {
+    color: $cor-cinza-b;
+    font-size: $font-28;
+  }
+
+  h3 {
+    text-align: $align-center;
+    color: rgba($cor-cinza, .8);
+    font-size: $font-22;
+  }
+
+  img {
+      margin: $margin-20 $margin-no -8px $margin-no;
+  }
+}
+
+.box-premium {
+  background: $cor-verde;
+  padding: $padding-20; 
+  color: $cor-branco;
+  text-align: $align-center;
+
+  h1 {
+    font-family: $font-montserrat;
+    font-size: $font-35;
+    margin: $margin-no;
+    color: $cor-branco;
+  }
+
+  p {
+    font-family: $font-montserrat;
+    font-size: $font-18;
+    margin: $margin-no;
+    color: #DFEECB;
+  }
+
+  .box-white-premium {
+    padding: $padding-20;
+    margin-top: $margin-15;
+    background: $cor-branco;
+  }
+
+}
+
+.sg-btn-green {
+  margin: $margin-10 $margin-no;
+}
+
+.versao-basica li {
+  display:none;
+}
+
+.bg-versoes {
+  background: #9FCE60;
+
+  h2 {
+    color: $cor-branco;
+    font-size: $font-36;
+    font-family: $font-arial;
+    font-weight: 900;
+    margin: $margin-30 $margin-no $margin-20 $margin-no;
+  }
+
+  span {
+    font-size: $font-15;
+    font-family: $font-open-sans;
+    font-weight: 400;
+    color: $cor-branco;
+    margin: $margin-no;
+  }
+
+  ul {
+    padding-bottom: $padding-30;
+  }
+
+  li {
+    float: left;
+    padding: $padding-7 $padding-13;
+    color: $cor-cinza;
+    min-width: 43%;
+    background: $cor-branco;
+    margin: $margin-5 $margin-5;
+    font-family: $font-open-sans;
+    font-weight: 600;
+    font-size: $font-13;
+
+    span {
+      color: $cor-cinza;
+      font-weight: 100;
+      position: $relativo;
+      top:0;
+    }
+  }
+}
+
+.bg-verde-escuro {
+  background:$cor-verde-escuro;
+  position:$relativo;
+  top: - $margin-20;
+  padding: $padding-10 $padding-30;
+  min-height: 330px;
+
+  h2 {
+    margin: $margin-10 $margin-no $margin-20 $margin-no;
+    color: #E4F3D1;
+  }
+
+  li {
+    background: $cor-transparent;
+    width: $cem-por-cento;
+    height: 35px;
+    text-align: left;
+    padding: $padding-no;
+
+    .txt-progress {
+      position: $relativo;
+      padding-left: $padding-20;
+      color: $cor-branco;
+      top: -32px;
+    }
+  }
+}
+
+.bg-cpm-verde {
+  background:$cor-verde-escuro;
+  height:30px; 
+  position: $absoluto; 
+  bottom:-20px; 
+  left:0; 
+  width:100%;
+}
+
+.txt-porcento {
+  position: $absoluto !important;
+  right: 10px;
+  top: 5px;
+  color: $cor-branco;
+  font-family: $font-open-sans;
+
+}
+
+.sg-botoes-teste-gratis {
+
+  padding: $padding-50 $padding-no;
+}
+
+.finaliza-compras {
+
+    min-height: 300px;
+    
+    p {
+      color: $cor-cinza;
+      font-size: $font-14;
+      font-family: $font-open-sans;
+    }
+
+    ul {
+      color: $cor-cinza;
+    }
+
+    li {
+      line-height: 30px;
+      font-size: $font-14;
+      font-family: $font-open-sans;
+    }
+
+    h2 {
+      color: $cor-laranja;
+      margin: $margin-30 $margin-no;
+    }
+
+    h4 {
+      color: $cor-laranja;
+      margin: $margin-30 $margin-no;
+    }
+
+    small {
+      font-size: $font-11;
+      font-family: $font-open-sans;
+      color: $cor-cinza;
+      margin-top: $margin-40;
+    }
+}
+
+.sg-link-finaliza {
+  margin: $margin-30 $margin-no;
+}
+
+.sg-link-excedido {
+  margin: $margin-50 $margin-no;
+}
+
+.termos {
+
+  padding: $padding-20;
+
+  h1 {
+    color: $cor-amarelo;
+    margin: $margin-10 $margin-no $margin-20 $margin-no;
+  }
+
+  h2 {
+    font-size:$font-22;
+    color: $cor-amarelo;
+  }
+
+   h3 {
+    font-size:$font-18;
+    color: $cor-branco;
+  }
+
+  p {
+    font-size: $font-14;
+    font-family: $font-open-sans;
+    color: $cor-branco;
+  }
+
+  span {
+    color: $cor-branco;
+    font-size:$font-30;
+    margin: $margin-no;
+    position:$relativo;
+    top: 0;
+  }
+}
+
+.barra {
+  color: $cor-laranja !important;
+}
+
+.sg-logo-404 {
+  max-width: 300px;
+  margin: auto;
+  padding-top: $padding-70;
+
+  span {
+    font-size: 37px;
+    margin: $margin-no;
+  }
+}
+
+.img-404 {
+    max-width: $cem-por-cento;
+    position: $relativo;
+    top: $margin-50;
+  }
+
+.bg-black {
+  background: $cor-preto;  
+  max-height: 250px;
+}
+
+.bg-amarelo {
+  background: $cor-amarelo;
+  min-height: 280px;
+}
+
+.txt-404 {
+
+    margin: $margin-80 $margin-no $margin-no $margin-no;    
+
+  h2 {
+    color: $cor-branco;
+    font-family: $font-arvo;
+    font-size: $font-40 !important;
+    margin-bottom: $margin-20;
+    font-style: italic;
+  }
+
+  a {
+    color: $cor-branco;
+    font-family: $font-arvo;
+    font-size: $font-20;
+  }
+}
+

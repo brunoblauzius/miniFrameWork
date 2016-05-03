@@ -1,0 +1,137 @@
+body {
+	color: $cor-amarelo;
+	overflow-x:hidden;
+}
+
+.has-error input {
+	border-left: solid 4px #DF0000 !important;
+	-webkit-transition: all 0.2s;
+}
+
+/* custom Bootstrap */
+
+.form-control {
+	border-radius: $border-no;
+	border-left: solid 4px rgba($cor-cinza, .1) !important;
+}
+
+.btn {
+	border-radius: $border-no;
+}
+
+.link-padrao {
+	color: $cor-branco;
+}
+
+a:hover {
+	text-decoration:$none;
+}
+
+a:focus {
+	outline:none;
+	text-decoration:none;
+	color: $cor-cinza;
+}
+
+button:focus {	
+	outline:0;
+}
+
+*:focus {
+	outline:none;
+}
+
+h1,h2,h3,h4 {
+	margin:$margin-10 $margin-no;
+}
+
+ul {
+	padding:$padding-no;
+	list-style-type: none;
+}
+
+a {
+	color: $cor-laranja;
+
+	&:hover {
+		color:rgba($cor-laranja, .8);
+	}
+}
+
+.cor-laranja {
+	background: $cor-laranja;
+}
+
+.cor-amarelo {
+	background: $cor-amarelo;
+}
+
+.cor-verde {
+	background: $cor-verde;
+}
+
+.cor-vermelho {
+	background: $cor-vermelho;
+}
+
+.line-border-all {	
+	height:5px;
+}
+
+.max {
+	max-width:$cem-por-cento;
+}
+
+.no-pdd {
+	padding:$padding-no;
+}
+
+.pdd-v2 {
+	padding:$padding-5;
+}
+
+.no-pdd-dir {
+	padding-right:$padding-no;
+}
+
+.no-pdd-esq {
+	padding-left:$padding-no;
+}
+
+.yes-pdd {
+	padding:2px;
+}
+
+.mg-all {
+	margin-top: $margin-20;
+	clear: both;
+}
+
+.mg-footer {
+	margin-top: $margin-80;
+	clear: both;
+}
+
+.minimo-altura {
+	min-height: 770px;
+}
+
+.container-center {
+	max-width: 800px;
+	margin:auto;
+}
+
+.pp-padrao {
+	font-family: $font-open-sans;
+	color: $cor-cinza;
+	font-size: $font-12;
+	text-align: $align-center;
+	margin: $margin-20 $margin-no;	
+
+	span {
+		color: $cor-verde;
+		font-size: $font-12;
+		position: $relativo;
+		top: 0px;
+	}
+}

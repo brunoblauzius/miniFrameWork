@@ -1,0 +1,90 @@
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+@mixin pad ($pads) {
+  padding: $pads;
+}
+
+@mixin transicao () {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+@mixin pd-bt-comprar () {
+    font-family: $font-montserrat;
+    color: $cor-branco;
+    background:$cor-laranja;    
+    border: $border-no; 
+    padding:7px 40px;
+}
+
+@mixin pd-bt-gratis () {
+    font-family: $font-montserrat;
+    color: $cor-branco;
+    background:$cor-laranja;    
+    border: $border-no;
+    width: $cem-por-cento;
+}
+
+@mixin icones () {
+    margin-right: 28px;
+}
+
+@mixin inputs () {
+     width: $cem-por-cento;
+      background: rgba($cor-cinza, 0.25);
+      border: solid $border-no;
+      padding-left: $padding-10;
+      min-height: 35px;
+}
+
+
+@mixin add-borda () {
+     border: solid 1px rgba($cor-cinza, .4);
+}
+
+@mixin gradiente-red () {    
+
+  background: #bb1700; 
+  background: -moz-linear-gradient(top,  #bb1700 50%, #a61400 52%); 
+  background: -webkit-linear-gradient(top,  #bb1700 50%,#a61400 52%); 
+  background: linear-gradient(to bottom,  #bb1700 50%,#a61400 52%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb1700', endColorstr='#a61400',GradientType=0 ); 
+
+}
+
+@mixin gradiente-green () {    
+background: #8cc541; /* Old browsers */
+background: -moz-linear-gradient(top,  #8cc541 53%, #82b838 53%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #8cc541 53%,#82b838 53%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #8cc541 53%,#82b838 53%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cc541', endColorstr='#82b838',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

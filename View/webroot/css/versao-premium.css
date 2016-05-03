@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+
+#progress-a, #progress-b, #progress-c, #progress-d, #progress-e, #progress-f {
+  display: none;
+}
+
+
+div.meter {
+  position: relative;
+  height: 32px;
+  background: #8CC541;
+  margin-bottom: 8px;
+}
+div.meter span {
+  display: block;
+  height: 100%;
+  animation: grower 1s linear;
+  -moz-animation: grower 1s linear;
+  -webkit-animation: grower 1s linear;
+  -o-animation: grower 1s linear;
+  position: relative;
+  top: 0;  
+  background: #6B982E;
+  
+  
+}
+div.meter span:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.03);
+}
+div.meter p {
+  position: absolute;
+  top: 0;
+  color: #FFF;
+  margin: 6px 10px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+ 
+}
+
+@keyframes grower {
+  0% {
+    width: 0%;
+  }
+}
+
+@-moz-keyframes grower {
+  0% {
+    width: 0%;
+  }
+}
+
+@-webkit-keyframes grower {
+  0% {
+    width: 0%;
+  }
+}
+
+@-o-keyframes grower {
+  0% {
+    width: 0%;
+  }
+}
+
