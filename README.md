@@ -4,7 +4,7 @@ framework utilizando OOP 5.5 +
 php 5.4 ++
 
 #Data Base
-arquive conect.php define attributtes connection
+arquive Model/DAO/conect.php define attributtes connection
 
 HOST
 
